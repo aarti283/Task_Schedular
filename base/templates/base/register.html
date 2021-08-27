@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="header-box">
+<h1>Register</h1>
+</div>
+
+<div class="card-body">
+<form method="post">
+    {% csrf_token %}
+    <label>{{form.username.label}}</label>
+    {{form.username}}
+    <label>{{form.password1.label}}</label>
+    {{form.password2}}
+    <label>{{form.password2.label}}</label>
+    {{form.password1}}
+    <input type="submit" value="Login">
+</form>
+
+<p>Already have an account<a href="{%url 'login'%}">Register</a></p>
+</div>
+</body>
+</html>

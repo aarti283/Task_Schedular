@@ -25,7 +25,7 @@ SECRET_KEY = 'u942p!_&_@2$8t=+m^l%ic_g3d5m6xvq_08w8%uk=@@t=g(17k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','']
+ALLOWED_HOSTS = ['127.0.0.1','task-schedular.herokuapp.com']
 
 
 # Application definition
